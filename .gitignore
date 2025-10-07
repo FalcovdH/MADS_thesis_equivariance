@@ -5,3 +5,6 @@ __pycache__/
 .ruff_cache/
 .pdm-python
 data/
+**/ray/
+.lock
+*.egg-info
