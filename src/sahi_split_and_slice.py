@@ -108,9 +108,9 @@ def run_split_and_slice(
 
 def main():
     # === handmatige instellingen ===
-    images_dir = Path(r"D:\Hoogen\Thesis\MADS_thesis_equivariance\data\raw\images")  # map met originele afbeeldingen
-    coco_json = Path(r"D:\Hoogen\Thesis\MADS_thesis_equivariance\data\raw\annotations_coco.json")  # COCO-bestand van de converter
-    out_dir = Path(r"D:\Hoogen\Thesis\MADS_thesis_equivariance\data\processed\images")  # outputmap
+    images_dir = Path(r"C:\Users\Falco\Documents\Python_project\MADS_thesis_equivariance\data\raw\images")  # map met originele afbeeldingen
+    coco_json = Path(r"C:\Users\Falco\Documents\Python_project\MADS_thesis_equivariance\data\raw\annotations_coco.json")  # COCO-bestand van de converter
+    out_dir = Path(r"C:\Users\Falco\Documents\Python_project\MADS_thesis_equivariance\data\processed\images")  # outputmap
 
     val_ratio = 0.2        # 20% validatie, 80% training
     slice_size = 1280      # slice-afmeting in pixels

@@ -157,9 +157,9 @@ def build_coco(
 
 def main():
     # === handmatige instellingen hier ===
-    images_dir = Path(r"D:\Hoogen\Thesis\MADS_thesis_equivariance\data\raw\images")
-    in_json = Path(r"D:\Hoogen\Thesis\MADS_thesis_equivariance\data\raw\labels.json")
-    out_json = Path(r"D:\Hoogen\Thesis\MADS_thesis_equivariance\data\raw\annotations_coco.json")
+    images_dir = Path(r"C:\Users\Falco\Documents\Python_project\MADS_thesis_equivariance\data\raw\images")
+    in_json = Path(r"C:\Users\Falco\Documents\Python_project\MADS_thesis_equivariance\data\raw\labels.json")
+    out_json = Path(r"C:\Users\Falco\Documents\Python_project\MADS_thesis_equivariance\data\raw\annotations_coco.json")
     include_unlabeled = True  # zet op False als je alleen gelabelde images wilt
 
     # === logica blijft gelijk ===
