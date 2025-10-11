@@ -1,0 +1,7 @@
+2025-10-11 13:06:41.484 | INFO     | __main__:<module>:274 - Logging to log\train_20251011_130641.log
+2025-10-11 13:06:41.484 | INFO     | __main__:<module>:276 - >>> starting train_frcnn_coco_generic.py
+2025-10-11 13:06:41.484 | INFO     | __main__:<module>:279 - >>> device: cpu
+2025-10-11 13:06:41.487 | INFO     | __main__:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-11 13:06:41.489 | INFO     | __main__:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-11 13:06:41.489 | WARNING  | __main__:<module>:296 - Subset: 60 train + 15 val (30%)
+2025-10-11 13:06:41.871 | INFO     | __main__:<module>:326 - >>> FAST: backbone frozen; only heads trainen

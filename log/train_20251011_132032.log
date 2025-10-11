@@ -1,0 +1,10 @@
+2025-10-11 13:20:32.824 | INFO     | __main__:<module>:274 - Logging to log\train_20251011_132032.log
+2025-10-11 13:20:32.825 | INFO     | __main__:<module>:276 - >>> starting train_frcnn_coco_generic.py
+2025-10-11 13:20:34.414 | INFO     | __main__:<module>:279 - >>> device: cuda
+2025-10-11 13:20:34.416 | INFO     | __main__:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-11 13:20:34.419 | INFO     | __main__:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-11 13:20:34.419 | WARNING  | __main__:<module>:296 - Subset: 60 train + 15 val (30%)
+2025-10-11 13:20:34.827 | INFO     | __main__:<module>:326 - >>> FAST: backbone frozen; only heads trainen
+2025-10-11 13:20:56.188 | INFO     | __main__:<module>:337 - [1/1] train_loss=0.6909  time=20.7s
+2025-10-11 13:20:59.749 | INFO     | __main__:<module>:342 - [val] mAP=0.005  AP50=0.010  AP75=0.004  AR=0.017
+2025-10-11 13:20:59.749 | SUCCESS  | __main__:<module>:345 - Done
