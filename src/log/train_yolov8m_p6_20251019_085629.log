@@ -1,0 +1,3 @@
+2025-10-19 08:56:29.124 | INFO     | __main__:main:183 - Logging to log\train_yolov8m_p6_20251019_085629.log
+2025-10-19 08:56:29.124 | INFO     | __main__:main:185 - >>> starting train_yolov8m_p6_coco_generic.py
+2025-10-19 08:56:29.124 | INFO     | __main__:main:187 - >>> device request: 0

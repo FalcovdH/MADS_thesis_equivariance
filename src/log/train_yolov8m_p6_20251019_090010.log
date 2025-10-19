@@ -1,0 +1,20 @@
+2025-10-19 09:00:10.739 | INFO     | __main__:main:183 - Logging to log\train_yolov8m_p6_20251019_090010.log
+2025-10-19 09:00:10.739 | INFO     | __main__:main:185 - >>> starting train_yolov8m_p6_coco_generic.py
+2025-10-19 09:00:10.739 | INFO     | __main__:main:187 - >>> device request: 0
+2025-10-19 09:00:10.743 | INFO     | train_frcnn_coco_generic:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 09:00:10.743 | INFO     | train_frcnn_coco_generic:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 09:00:10.743 | WARNING  | __main__:main:203 - Subset: 20 train + 5 val (10%)
+2025-10-19 09:00:10.804 | INFO     | __main__:main:219 - Dataset YAML: C:\Users\Falco\AppData\Local\Temp\yolo_coco_ucdf2h4z\dataset.yaml
+2025-10-19 09:00:16.005 | INFO     | __main__:main:241 - Ultralytics train kwargs: {
+  "data": "C:\\Users\\Falco\\AppData\\Local\\Temp\\yolo_coco_ucdf2h4z\\dataset.yaml",
+  "epochs": 1,
+  "batch": 32,
+  "workers": 8,
+  "lr0": 0.01,
+  "imgsz": 128,
+  "project": "runs",
+  "name": "smoke_y11n_128",
+  "device": "0",
+  "exist_ok": true,
+  "max_train_batches": 10
+}

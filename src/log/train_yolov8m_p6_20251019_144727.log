@@ -1,0 +1,48 @@
+2025-10-19 14:47:27.508 | INFO     | __main__:main:339 - Logging to log\train_yolov8m_p6_20251019_144727.log
+2025-10-19 14:47:27.508 | INFO     | __main__:main:341 - >>> starting train_yolov8m_p6_coco_generic.py
+2025-10-19 14:47:27.508 | INFO     | __main__:main:343 - >>> device request: 0
+2025-10-19 14:47:27.508 | INFO     | train_frcnn_coco_generic:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 14:47:27.517 | INFO     | train_frcnn_coco_generic:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 14:47:27.838 | INFO     | __main__:main:373 - Dataset YAML: C:\Users\Falco\AppData\Local\Temp\yolo_coco_5b2k_0ny\dataset.yaml
+2025-10-19 14:47:28.029 | INFO     | __main__:main:386 - >> e2cnn backbone patch aangevraagd: C_n n=8, base=64, p6=False
+2025-10-19 14:47:28.029 | INFO     | __main__:_try_patch_ultralytics_backbone:195 - Patching Ultralytics graph: replacing model.model[0] with e2cnn backbone
+2025-10-19 14:49:26.732 | INFO     | __main__:main:408 - Backbone[0] type at train(): E2CNNBackbone
+2025-10-19 14:49:26.732 | INFO     | __main__:main:416 - Is E2CNNBackbone actief? True
+2025-10-19 14:49:26.748 | INFO     | __main__:main:460 - Ultralytics train kwargs: {
+  "data": "C:\\Users\\Falco\\AppData\\Local\\Temp\\yolo_coco_5b2k_0ny\\dataset.yaml",
+  "epochs": 100,
+  "batch": 16,
+  "workers": 8,
+  "optimizer": "SGD",
+  "lr0": 0.01,
+  "momentum": 0.937,
+  "weight_decay": 0.0005,
+  "warmup_epochs": 5.0,
+  "cos_lr": true,
+  "imgsz": 128,
+  "project": "runs",
+  "name": "y11n_128_e2cnn_SGD_251019_14:47",
+  "device": "0",
+  "exist_ok": true,
+  "pretrained": false,
+  "resume": false,
+  "mosaic": 0,
+  "mixup": 0,
+  "copy_paste": 0,
+  "degrees": 0,
+  "translate": 0,
+  "scale": 0,
+  "shear": 0,
+  "perspective": 0,
+  "flipud": 0,
+  "fliplr": 0,
+  "hsv_h": 0,
+  "hsv_s": 0,
+  "hsv_v": 0,
+  "erasing": 0,
+  "iou": 0.5,
+  "fl_gamma": 1.5,
+  "box": 7.5,
+  "cls": 0.8,
+  "label_smoothing": 0.05
+}

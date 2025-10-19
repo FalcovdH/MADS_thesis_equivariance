@@ -1,0 +1,6 @@
+2025-10-13 19:36:46.910 | INFO     | __main__:main:182 - Logging to log\train_yolov8m_p6_20251013_193646.log
+2025-10-13 19:36:46.911 | INFO     | __main__:main:184 - >>> starting train_yolov8m_p6_coco_generic.py
+2025-10-13 19:36:48.538 | INFO     | __main__:main:186 - >>> device request: 0
+2025-10-13 19:36:48.547 | INFO     | train_frcnn_coco_generic:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-13 19:36:48.549 | INFO     | train_frcnn_coco_generic:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-13 19:36:48.549 | WARNING  | __main__:main:202 - Subset: 60 train + 15 val (30%)

@@ -1,0 +1,121 @@
+2025-10-19 13:13:43.888 | INFO     | __main__:main:328 - Logging to log\train_yolov8m_p6_20251019_131343.log
+2025-10-19 13:13:43.888 | INFO     | __main__:main:330 - >>> starting train_yolov8m_p6_coco_generic.py
+2025-10-19 13:13:43.888 | INFO     | __main__:main:332 - >>> device request: 0
+2025-10-19 13:13:43.898 | INFO     | train_frcnn_coco_generic:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 13:13:43.898 | INFO     | train_frcnn_coco_generic:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 13:13:44.252 | INFO     | __main__:main:362 - Dataset YAML: C:\Users\Falco\AppData\Local\Temp\yolo_coco_phhjnjdk\dataset.yaml
+2025-10-19 13:13:44.459 | INFO     | __main__:main:375 - >> e2cnn backbone patch aangevraagd: C_n n=8, base=64, p6=False
+2025-10-19 13:13:44.459 | INFO     | __main__:_try_patch_ultralytics_backbone:192 - Patching Ultralytics graph: replacing model.model[0] with e2cnn backbone
+2025-10-19 13:15:50.558 | INFO     | __main__:main:421 - Ultralytics train kwargs: {
+  "data": "C:\\Users\\Falco\\AppData\\Local\\Temp\\yolo_coco_phhjnjdk\\dataset.yaml",
+  "epochs": 10,
+  "batch": 16,
+  "workers": 8,
+  "lr0": 0.01,
+  "imgsz": 128,
+  "project": "runs",
+  "name": "y11n_128_full_e2cnn",
+  "device": "0",
+  "exist_ok": true,
+  "pretrained": false,
+  "resume": false,
+  "mosaic": 0,
+  "mixup": 0,
+  "copy_paste": 0,
+  "degrees": 0,
+  "translate": 0,
+  "scale": 0,
+  "shear": 0,
+  "perspective": 0,
+  "flipud": 0,
+  "fliplr": 0,
+  "hsv_h": 0,
+  "hsv_s": 0,
+  "hsv_v": 0,
+  "erasing": 0
+}
+2025-10-19 13:18:23.955 | INFO     | __main__:main:425 - Train results: ultralytics.utils.metrics.DetMetrics object with attributes:
+
+ap_class_index: array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+box: ultralytics.utils.metrics.Metric object
+confusion_matrix: <ultralytics.utils.metrics.ConfusionMatrix object at 0x0000020973E7DB10>
+curves: ['Precision-Recall(B)', 'F1-Confidence(B)', 'Precision-Confidence(B)', 'Recall-Confidence(B)']
+curves_results: [[array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], shape=(10, 1000)), 'Recall', 'Precision'], [array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], shape=(10, 1000)), 'Confidence', 'F1'], [array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.],
+       ...,
+       [0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.]], shape=(10, 1000)), 'Confidence', 'Precision'], [array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], shape=(10, 1000)), 'Confidence', 'Recall']]
+fitness: np.float64(0.0)
+keys: ['metrics/precision(B)', 'metrics/recall(B)', 'metrics/mAP50(B)', 'metrics/mAP50-95(B)']
+maps: array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])
+names: {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9'}
+nt_per_class: array([ 8, 10, 12,  7,  7,  6,  9, 17,  7,  9])
+nt_per_image: array([ 8, 10, 12,  7,  7,  5,  9, 14,  7,  9])
+results_dict: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'fitness': 0.0}
+save_dir: WindowsPath('C:/Users/Falco/Documents/Python_project/MADS_thesis_equivariance/src/runs/y11n_128_full_e2cnn')
+speed: {'preprocess': 0.1949199999216944, 'inference': 2.486052000313066, 'loss': 0.00035999983083456755, 'postprocess': 1.3255659997230396}
+stats: {'tp': [], 'conf': [], 'pred_cls': [], 'target_cls': [], 'target_img': []}
+task: 'detect'
+2025-10-19 13:18:53.977 | INFO     | __main__:main:429 - Validation metrics: ultralytics.utils.metrics.DetMetrics object with attributes:
+
+ap_class_index: array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+box: ultralytics.utils.metrics.Metric object
+confusion_matrix: <ultralytics.utils.metrics.ConfusionMatrix object at 0x000002098C6B5A90>
+curves: ['Precision-Recall(B)', 'F1-Confidence(B)', 'Precision-Confidence(B)', 'Recall-Confidence(B)']
+curves_results: [[array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], shape=(10, 1000)), 'Recall', 'Precision'], [array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], shape=(10, 1000)), 'Confidence', 'F1'], [array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.],
+       ...,
+       [0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.],
+       [0., 0., 1., ..., 1., 1., 1.]], shape=(10, 1000)), 'Confidence', 'Precision'], [array([0.   , 0.001, 0.002, ..., 0.998, 0.999, 1.   ], shape=(1000,)), array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]], shape=(10, 1000)), 'Confidence', 'Recall']]
+fitness: np.float64(0.0)
+keys: ['metrics/precision(B)', 'metrics/recall(B)', 'metrics/mAP50(B)', 'metrics/mAP50-95(B)']
+maps: array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])
+names: {0: '0', 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9'}
+nt_per_class: array([ 8, 10, 12,  7,  7,  6,  9, 17,  7,  9])
+nt_per_image: array([ 8, 10, 12,  7,  7,  5,  9, 14,  7,  9])
+results_dict: {'metrics/precision(B)': 0.0, 'metrics/recall(B)': 0.0, 'metrics/mAP50(B)': 0.0, 'metrics/mAP50-95(B)': 0.0, 'fitness': 0.0}
+save_dir: WindowsPath('C:/Users/Falco/Documents/Python_project/MADS_thesis_equivariance/runs/detect/val5')
+speed: {'preprocess': 0.9475739998742938, 'inference': 7.955873999744654, 'loss': 0.0011280004400759935, 'postprocess': 1.5791479998733848}
+stats: {'tp': [], 'conf': [], 'pred_cls': [], 'target_cls': [], 'target_img': []}
+task: 'detect'
+2025-10-19 13:18:54.087 | SUCCESS  | __main__:main:431 - Done

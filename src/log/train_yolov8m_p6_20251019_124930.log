@@ -1,0 +1,8 @@
+2025-10-19 12:49:30.955 | INFO     | __main__:main:328 - Logging to log\train_yolov8m_p6_20251019_124930.log
+2025-10-19 12:49:30.955 | INFO     | __main__:main:330 - >>> starting train_yolov8m_p6_coco_generic.py
+2025-10-19 12:49:30.955 | INFO     | __main__:main:332 - >>> device request: 0
+2025-10-19 12:49:30.955 | INFO     | train_frcnn_coco_generic:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 12:49:30.955 | INFO     | train_frcnn_coco_generic:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-19 12:49:31.283 | INFO     | __main__:main:362 - Dataset YAML: C:\Users\Falco\AppData\Local\Temp\yolo_coco_sdsk6v9y\dataset.yaml
+2025-10-19 12:49:31.474 | INFO     | __main__:main:375 - >> e2cnn backbone patch aangevraagd: C_n n=8, base=64, p6=False
+2025-10-19 12:49:31.474 | INFO     | __main__:_try_patch_ultralytics_backbone:192 - Patching Ultralytics graph: replacing model.model[0] with e2cnn backbone

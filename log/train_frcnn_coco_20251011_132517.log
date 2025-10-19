@@ -1,0 +1,28 @@
+2025-10-11 13:25:17.571 | INFO     | __main__:<module>:274 - Logging to log\train_frcnn_coco_20251011_132517.log
+2025-10-11 13:25:17.572 | INFO     | __main__:<module>:276 - >>> starting train_frcnn_coco_generic.py
+2025-10-11 13:25:19.161 | INFO     | __main__:<module>:279 - >>> device: cuda
+2025-10-11 13:25:19.164 | INFO     | __main__:__init__:104 - [train] images=200  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-11 13:25:19.165 | INFO     | __main__:__init__:104 - [val] images=50  nc=10  names=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2025-10-11 13:25:19.166 | WARNING  | __main__:<module>:296 - Subset: 60 train + 15 val (30%)
+2025-10-11 13:25:19.494 | INFO     | __main__:<module>:326 - >>> FAST: backbone frozen; only heads trainen
+2025-10-11 13:25:40.745 | INFO     | __main__:<module>:337 - [1/10] train_loss=0.6866  time=20.6s
+2025-10-11 13:25:44.298 | INFO     | __main__:<module>:342 - [val] mAP=0.004  AP50=0.010  AP75=0.003  AR=0.020
+2025-10-11 13:26:04.843 | INFO     | __main__:<module>:337 - [2/10] train_loss=0.5325  time=20.5s
+2025-10-11 13:26:08.366 | INFO     | __main__:<module>:342 - [val] mAP=0.010  AP50=0.022  AP75=0.005  AR=0.031
+2025-10-11 13:26:28.780 | INFO     | __main__:<module>:337 - [3/10] train_loss=0.4306  time=20.4s
+2025-10-11 13:26:32.307 | INFO     | __main__:<module>:342 - [val] mAP=0.010  AP50=0.022  AP75=0.005  AR=0.031
+2025-10-11 13:26:52.722 | INFO     | __main__:<module>:337 - [4/10] train_loss=0.4324  time=20.4s
+2025-10-11 13:26:56.286 | INFO     | __main__:<module>:342 - [val] mAP=0.012  AP50=0.026  AP75=0.008  AR=0.032
+2025-10-11 13:27:16.825 | INFO     | __main__:<module>:337 - [5/10] train_loss=0.3940  time=20.5s
+2025-10-11 13:27:21.025 | INFO     | __main__:<module>:342 - [val] mAP=0.010  AP50=0.026  AP75=0.007  AR=0.025
+2025-10-11 13:27:41.781 | INFO     | __main__:<module>:337 - [6/10] train_loss=0.3552  time=20.8s
+2025-10-11 13:27:45.296 | INFO     | __main__:<module>:342 - [val] mAP=0.013  AP50=0.028  AP75=0.009  AR=0.030
+2025-10-11 13:28:05.835 | INFO     | __main__:<module>:337 - [7/10] train_loss=0.3203  time=20.5s
+2025-10-11 13:28:09.368 | INFO     | __main__:<module>:342 - [val] mAP=0.015  AP50=0.029  AP75=0.008  AR=0.033
+2025-10-11 13:28:29.920 | INFO     | __main__:<module>:337 - [8/10] train_loss=0.3049  time=20.6s
+2025-10-11 13:28:33.629 | INFO     | __main__:<module>:342 - [val] mAP=0.020  AP50=0.038  AP75=0.020  AR=0.033
+2025-10-11 13:28:54.268 | INFO     | __main__:<module>:337 - [9/10] train_loss=0.2664  time=20.6s
+2025-10-11 13:28:57.927 | INFO     | __main__:<module>:342 - [val] mAP=0.022  AP50=0.040  AP75=0.021  AR=0.032
+2025-10-11 13:29:19.175 | INFO     | __main__:<module>:337 - [10/10] train_loss=0.2472  time=21.2s
+2025-10-11 13:29:22.875 | INFO     | __main__:<module>:342 - [val] mAP=0.021  AP50=0.041  AP75=0.018  AR=0.031
+2025-10-11 13:29:22.876 | SUCCESS  | __main__:<module>:345 - Done
